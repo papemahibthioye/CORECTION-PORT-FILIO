@@ -352,3 +352,80 @@ img {
     font-size: 8px;
     margin: 0 auto;
 }
+@media (max-width: 820px) {
+
+    body {
+        padding-top: 84px;
+    }
+
+    .dg {
+        min-height: 84px;
+    }
+
+    /* HERO */
+    .bll3 {
+        grid-template-columns: 1fr;
+    }
+
+    .bl31 h1 {
+        font-size: 40px;
+    }
+
+    .blimage2 {
+        margin-top: 20px;
+    }
+
+    /* STATS */
+    .bl313 {
+        flex-wrap: wrap;
+    }
+
+    .bl3131 {
+        width: 48%;
+    }
+
+    /* A PROPOS */
+    .bl4 {
+        grid-template-columns: 1fr;
+    }
+
+    /* PROJETS */
+    .bl5 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* PROFIL */
+    .bl6 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .bl61 {
+        width: 48%;
+    }
+
+    /* CONTACT */
+    .bl7 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .bl72 {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .bl72 button {
+        margin: 10px;
+    }
+
+    /* TITRES */
+    .bl3 {
+        width: 40%;
+    }
+
+    /* POINTS */
+    .bl8 {
+        width: 30%;
+    }
+}
