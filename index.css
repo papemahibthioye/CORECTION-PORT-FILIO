@@ -450,8 +450,9 @@ img {
     }
 
     .bl312 .btn {
-        width: 100%;
+        width: 90%;
         text-align: center;
+        line-height: 1.1;
     }
 
     .bl313 {
@@ -459,7 +460,7 @@ img {
     }
 
     .bl3131 {
-        width: 100%;
+        width: 90%;
     }
 
     .blimage21 {
@@ -482,7 +483,9 @@ img {
     .bl61 {
         width: 100%;
     }
-
+    .bl7{
+         width: 90%;
+          }    
     .bl72 {
         flex-direction: column;
     }
