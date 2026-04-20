@@ -362,7 +362,7 @@ img {
         min-height: 84px;
     }
 
-    /* HERO */
+  
     .bll3 {
         grid-template-columns: 1fr;
     }
@@ -375,7 +375,6 @@ img {
         margin-top: 20px;
     }
 
-    /* STATS */
     .bl313 {
         flex-wrap: wrap;
     }
@@ -384,7 +383,7 @@ img {
         width: 48%;
     }
 
-    /* A PROPOS */
+  
     .bl4 {
         grid-template-columns: 1fr;
     }
@@ -394,7 +393,6 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* PROFIL */
     .bl6 {
         flex-wrap: wrap;
         height: auto;
@@ -404,7 +402,6 @@ img {
         width: 48%;
     }
 
-    /* CONTACT */
     .bl7 {
         height: auto;
         padding: 20px;
@@ -419,13 +416,90 @@ img {
         margin: 10px;
     }
 
-    /* TITRES */
+
     .bl3 {
         width: 40%;
     }
 
-    /* POINTS */
     .bl8 {
         width: 30%;
+    }
+}
+@media (max-width: 414px) {
+
+    body {
+        padding-top: 78px;
+    }
+
+    .dg {
+        min-height: 78px;
+    }
+
+  
+    .bl13 {
+        display: none;
+    }
+
+    .bl31 h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .bl312 {
+        flex-direction: column;
+    }
+
+    .bl312 .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bl313 {
+        flex-direction: column;
+    }
+
+    .bl3131 {
+        width: 100%;
+    }
+
+    .blimage21 {
+        position: static;
+        margin-bottom: 10px;
+    }
+
+    .bl4 {
+        grid-template-columns: 1fr;
+    }
+
+    .bl5 {
+        grid-template-columns: 1fr;
+    }
+
+    .bl6 {
+        flex-direction: column;
+    }
+
+    .bl61 {
+        width: 100%;
+    }
+
+    .bl72 {
+        flex-direction: column;
+    }
+
+    .bl72 button {
+        width: 100%;
+    }
+
+    .bl3 {
+        width: 70%;
+    }
+
+    .bl8 {
+        width: 50%;
+        justify-content: center;
+    }
+    .bl9 p {
+        font-size: 10px;
     }
 }
