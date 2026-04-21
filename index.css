@@ -32,7 +32,7 @@ img {
 }
 
 .dg {
-    min-height: 92px;
+    min-height: 98px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -41,6 +41,7 @@ img {
 /* LOGO */
 
 .brand {
+    border: 2px solid black;
     display: flex;
     align-items: center;
     gap: 14px;
@@ -92,8 +93,12 @@ img {
 .bl311 {
     border: #24324a solid 2px;
     width: fit-content;
-    padding: 4px 10px;
+    height: 20px;
+    padding: 06px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .bll3 {
@@ -316,17 +321,20 @@ img {
     border-radius: 10px;
     background-color: #2f5aa8;
     color: white;
+    border: none;
 }
 
 /* petitcerclefin */
 
 .bl8 {
+    /* border: 2px solid black; */
     width: 15%;
     height: 40px;
     margin: 20px auto;
     border-radius: 20px;
     display: flex;
     align-items: center;
+    height: 15px;
 }
 
 .bl81 {
